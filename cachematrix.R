@@ -52,7 +52,3 @@ cacheSolve <- function(x, ...) {
     invM
   }
 }
-
-x=matrix(1:4,2,2)
-y=makeCacheMatrix(x)
-cacheSolve(y)
